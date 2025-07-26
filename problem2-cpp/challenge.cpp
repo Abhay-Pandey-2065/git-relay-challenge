@@ -70,7 +70,7 @@ public:
 
     string generateClue(int sum)
     {
-        return "FIBONACCI_" + to_string(sum) 
+        return "FIBONACCI_" + to_string(sum); 
     }
 };
 
@@ -78,17 +78,17 @@ int main()
 {
     VectorProcessor processor(); 
 
-    int result = processor.processClue();
+    int result = VectorProcessor().processClue();
     cout << "Sum of values: " << result << endl;
 
-    string nextClue = processor.generateClue(result);
+    string nextClue = VectorProcessor().generateClue(result);
     cout << "Clue for Python problem: " << nextClue << endl;
 
     return 0;
 }
 
 /*
-SOLUTION - PASTE YOUR CLUE HERE:
-Member Name: ________________
-Clue for Python problem: ________________
+SOLUTION - PASTE YOUR CLUE HERE:81 and 84 change class name
+Member Name: ___sanchita_____________
+Clue for Python problem: __missing semi-colon______________
 */

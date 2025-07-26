@@ -64,17 +64,17 @@ public class Challenge {
         System.out.println("Using clue from Problem 3: " + previousClue);
         
         int[] extractedArray = parseClueArray(previousClue);
-        System.out.println("Extracted array: " + Arrays.toString(extractedArray))  
+        System.out.println("Extracted array: " + Arrays.toString(extractedArray));
         
         bubbleSort(extractedArray);
         System.out.println("Array after custom sort: " + Arrays.toString(extractedArray));
         
-        displayFinalSolution()  
+        displayFinalSolution();
     }
 }
 
 /*
 SOLUTION - PASTE YOUR FINAL SOLUTION HERE:
-Member Name: ________________
-Final Solution Message: ________________
+Member Name: ______Abhay__________
+Final Solution Message: _______Missing semicolon_________
 */
