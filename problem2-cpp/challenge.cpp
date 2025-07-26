@@ -27,7 +27,7 @@ public:
     {
         data = {10, 20, 30, 40, 50, 60, 70, 80};
 
-        cluePositions = {}; //Use clue from Problem 1 here 
+        cluePositions = {0, 2,4, 6}; //Use clue from Problem 1 here 
     }
 
     int processClue()
@@ -76,12 +76,12 @@ public:
 
 int main()
 {
-    VectorProcessor processor(); 
+    VectorProcessor processor; 
 
-    int result = VectorProcessor().processClue();
+    int result = processor.processClue();
     cout << "Sum of values: " << result << endl;
 
-    string nextClue = VectorProcessor().generateClue(result);
+    string nextClue = processor.generateClue(result);
     cout << "Clue for Python problem: " << nextClue << endl;
 
     return 0;
